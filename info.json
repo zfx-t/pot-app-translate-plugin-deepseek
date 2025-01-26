@@ -1,0 +1,52 @@
+{
+  "id": "plugin.com.pot-app.deepseek",
+  "plugin_type": "translate",
+  "icon": "deepseek.svg",
+  "display": "deepseek",
+  "homepage": "https://github.com/pot-app/pot-app-translate-plugin-template",
+  "needs": [
+    {
+      "key": "model",
+      "display": "模型选择",
+      "type": "select",
+      "options": {
+        "deepseek-chat": "deepseek-chat",
+        "deepseek-reasoner": "deepseek-reasoner"
+      },
+      "default": "deepseek-chat"
+    },
+    {
+      "key": "apiKey",
+      "display": "API密钥",
+      "type": "input"
+    }
+  ],
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh_HANT",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi",
+    "mn_cy": "mn",
+    "mn_mo": "mn",
+    "km": "km",
+    "nb_no": "no",
+    "nn_no": "no",
+    "fa": "fa"
+  }
+}
