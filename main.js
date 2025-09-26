@@ -2,7 +2,7 @@ async function translate(text, from, to, options) {
     const { config, utils } = options;
     const { tauriFetch: fetch } = utils;
     
-    let { apiKey, model = "deepseek-chat" } = config;
+    let { apiKey, model = "Hunyuan-MT-7B" } = config;
     
     // 设置默认请求路径
     const requestPath = "https://api.siliconflow.cn/v1/chat/completions";
