@@ -10,11 +10,9 @@
       "display": "模型选择",
       "type": "select",
       "options": {
-        "deepseek-chat": "deepseek-chat",
-        "deepseek-reasoner": "deepseek-reasoner",
         "Hunyuan-MT-7B": "tencent/Hunyuan-MT-7B"
       },
-      "default": "deepseek-chat"
+      "default": "Hunyuan-MT-7B"
     },
     {
       "key": "apiKey",
